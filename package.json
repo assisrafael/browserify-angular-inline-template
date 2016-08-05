@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix src/",
-    "test": "ava src/*.test.js"
+    "test": "ava src/*.test.js",
+    "release": "standard-version"
   },
   "author": "Igor Rafael <igor.rafael@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.15.2",
-    "browserify": "^13.1.0"
+    "browserify": "^13.1.0",
+    "standard-version": "^2.4.0"
   },
   "dependencies": {
     "async": "^2.0.1",
