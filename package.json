@@ -2,7 +2,7 @@
   "name": "browserify-angular-inline-template",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/inline-template.js",
   "scripts": {
     "lint": "eslint --fix src/",
     "test": "ava src/*.test.js",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "async": "^2.0.1",
-    "html-minifier": "^3.0.2"
+    "html-minifier": "^3.0.2",
+    "through2": "^2.0.1"
   }
 }
