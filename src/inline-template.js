@@ -48,7 +48,7 @@ module.exports = function(file) {
 					collapseWhitespace: true,
 					conservativeCollapse: true,
 					quoteCharacter: '"'
-				});
+				}).replace(/[\\$'"]/g, '\\$&');
 
 				let tranformedTpl = template.replace(templateUrl, minifiedTplSrc);
 				tranformedTpl = tranformedTpl.replace('templateUrl', 'template');
