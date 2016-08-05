@@ -9,7 +9,7 @@
     "release": "standard-version"
   },
   "author": "Igor Rafael <igor.rafael@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "ava": "^0.15.2",
     "browserify": "^13.1.0",
